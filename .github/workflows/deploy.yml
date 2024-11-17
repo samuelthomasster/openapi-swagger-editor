@@ -1,6 +1,9 @@
 # This is a basic workflow to help you get started with Actions
 
 name: deploy-openapi-specs
+on:
+  push:
+    branches: [ 'main' ]
 
 image: node:10-alpine
 
